@@ -153,7 +153,7 @@ namespace UIControls {
         }
 
         protected override void OnKeyDown(KeyEventArgs e) {
-            if (e.Key == Key.Escape && SearchMode == SearchMode.Instant) {
+            if (e.Key == Key.Escape) {
                 this.Text = "";
             }
             else if ((e.Key == Key.Return || e.Key == Key.Enter) && 
